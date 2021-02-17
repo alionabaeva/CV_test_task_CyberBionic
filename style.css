@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+@import url('https://fonts.google.com/specimen/Open+Sans');
+@import url('https://fonts.google.com/specimen/Lato');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+/* font-family: 'Montserrat', sans-serif; */
+}
+
+body {
+    background: #585c68;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bold_right {
+    font-weight: 700;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
+
+.semi_bold {
+   font-weight: 500; 
+   letter-spacing: 30px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+.resume {
+    max-width: 1000px;
+    min-width: 320px;
+    height: auto;
+    display: flex;
+   margin: 60px auto;
+}
+
+/* ---------------------  left side of resume ------------------------ */
+
+.resume .resume_left {
+    width: 35%;
+    background: #bed8ec;
+}
+
+.resume .resume_left .resume_profile {
+width: 100%;
+height: auto;
+background: white;
+font-size: 31px;
+text-align: center;
+padding-bottom: 60px;
+vertical-align: middle;
+padding-top: 30px;
+letter-spacing: 10px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.resume .resume_left .resume_profile .regular {
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.resume .resume_left .resume_profile .semi_bold {
+    margin-bottom: 20px;
+    font-size: 31px;
+    letter-spacing: 10px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.resume .resume_left .resume_profile .bold {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 31px;
+}
+.resume .resume_left .resume_profile img {
+width: 50%;
+height: 50%;
+padding-bottom: 20px;
+}
+
+.resume_content {
+    /* padding: 0 25px; */
+    position: relative;
+    
+}
+
+.top-up {
+    width: 90%;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+}
+
+.resume_contact {
+    font-family: 'Lato Regular', sans-serif;
+    /* position: absolute; */
+    padding-bottom: 20px;
+}
+
+.data {
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 17px;
+    padding-bottom: 8px;
+}
+
+.resume .title {
+    margin-bottom: 20px;
+}
+
+.resume .resume_left .bold .semi_bold  {
+    color: black;
+    padding-bottom: 20px;
+}
+
+.resume .resume_left .bold .semi_bold .regular {
+    color: black;
+}
+
+.resume .resume_item {
+    padding: 17px 0;
+}
+
+.resume .resume_left .resume_item:last-child {
+    border-bottom: 0px;
+}
+
+.resume .resume_left ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.resume .resume_left ul li:last-child {
+    margin-bottom: 0;
+}
+
+.resume .resume_left ul li .icon img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.resume_language ul li {
+    justify-content: space-between;
+}
+
+.resume .resume_left .resume_language ul li .language_name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.resume .resume_left .resume_language ul li .language_progress img {
+   
+    margin: 0 5px;
+    height: 10px;
+    position: relative;
+}
+
+.allhobbies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin-content {
+    margin-left: 35px;
+    margin-right: 30px;
+}
+
+.btn {
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+    background: black;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ---------------------  right side of resume ------------------------ */ 
+
+.resume .resume_right .skills ul li {
+    justify-content: space-between;
+}
+
+.resume .resume_right .resume_skills ul li .skills_name {
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    padding-right: 14px;
+    padding-bottom: 8px;
+}
+
+.resume .resume_right .resume_skills ul li  .skills_progress img {
+    margin: 0 5px;
+    height: 10px;
+    position: relative;
+}
+
+.all_skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.resume .resume_right {
+    width: 60%;
+    background: white;
+    padding: 25px;
+    padding-left: 70px; 
+    padding-right: 70px; 
+    font-family: 'OpenSans';
+}
+
+.resume .resume_right .title {
+   
+    padding-bottom: 10px;
+    display: flex;
+}
+
+
+.resume .resume_right .title .bold {
+    
+   padding: 10px;
+   padding-left: 0;
+}
+
+.line {
+    border-bottom: 3px solid rgb(129, 126, 126); 
+    width: 90%;
+    margin-left: 15px;
+}
+
+.resume_item .title img{
+    width: 10%;
+    height: 10%;
+}
+
+.resume .resume_right .resume_education ul,
+.resume .resume_right .resume_experience ul {
+overflow: hidden;
+}
+
+.month {
+    margin-top: 15px;
+    font-family: 'Lato Regular', sans-serif;
+}
+
+.date_month {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.resume .resume_right ul li {
+    position: relative;
+}
+
+.resume .resume_right ul li .date {
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+}
+
+.resume .resume_right ul li .info {
+    margin-bottom: 20px;
+}
+
+.all_skills li {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -------------------- Mobile vesion ------------------------- */
+@media (max-width: 576px) { 
+    .resume {
+       flex-direction: column;
+      
+    }
+
+    .resume .resume_left {
+        width: 100%;
+    }
+    
+    .resume .resume_right {
+        width: 100%;
+    }
+
+    .data {
+        padding-left: 15px;
+    }
+
+    .resume .resume_left ul li .icon img{
+        margin-left: 20px;
+    }
+    
+    .month {
+        margin-top: 15px;
+        font-family: 'Lato Regular', sans-serif;
+        font-size: 10px;
+    }
+    .date_month .date {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+ 
+    .date_month .paragraph {
+        font-size: 6px;
+    }
+
+    .bold_right {
+        font-size: 12px;
+        padding-top: 0px;
+    }
+
+    .line {
+        border-bottom: 1px solid rgb(129, 126, 126);   
+    }
+
+    .resume .resume_right .resume_skills ul li .skills_name {   
+        font-size: 9px;
+    }
+    
+    .resume .resume_right .resume_skills ul li  .skills_progress img {
+        margin: 0;
+        height: 8px;
+        position: relative;
+    }
+
+    .btn {
+         height: 35px;
+        font-size: 15px;
+        padding-top: 8px;
+    }
+
+    .resume_content .top-up {
+        position: inherit;
+    }
+
+    .resume_item .title img{
+        width: 5%;
+        height: 5%;
+    }
+
+    .resume .resume_left .resume_language ul li .language_name {
+        padding-right: 20px;
+        margin-left: 18px;
+    }
+
+    .resume_language ul li {
+        justify-content: flex-start;
+    }
+
+    .allhobbies {
+        justify-content: flex-start; 
+    }
+    
+}
+
+/* -------------------- Tablet vesion ------------------------- */
+@media (max-width: 768px) { 
+
+    .data {
+        font-size: 12px;
+    }
+
+    .resume .resume_left .resume_language ul li .language_progress img {
+        margin: 0 2px;
+        height: 10px;
+    }
+    
+    .resume .resume_right .resume_skills ul li  .skills_progress img {
+        margin: 0 2px;
+        height: 8px;
+        position: relative;
+    }
+
+    .bold_right {
+        
+        font-size: 15px;
+        
+    }
+
+    .resume .resume_left .resume_language ul li .language_name {
+        padding-bottom: 4px;
+    }
+
+}
+
+/* -------------------- MOTO G4 vesion ------------------------- */
+
+@media (max-width: 360px) {
+    .all_skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/* -------------------- Pixel2 vesion ------------------------- */
+
+@media (max-width: 411px) {
+    .all_skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resume_item .title img {
+        width: 10%;
+        height: 10%;
+
+}
+}
+
+/* -------------------- Iphone 5/SE vesion ------------------------- */
+
+@media (max-width: 320px) {
+    .date_month {
+        flex-direction: column;
+    }
+}
+
